@@ -1,0 +1,58 @@
+.App {
+  margin: 30px 100px;
+}
+
+.like-button {
+  padding: 10px 15px;
+  color: aliceblue;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.like-button:hover {
+  background-color: rgb(83, 83, 250);
+}
+
+.counter button {
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  color: aliceblue;
+  padding: 10px 15px;
+}
+
+.counter button:hover {
+  background-color: rgb(83, 83, 250);
+}
+
+.counter button:disabled {
+  background-color: rgb(160, 160, 160);
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.clickable-picture-boy {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+
+.dice {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* .disco {
+  background-color: ;
+} */
